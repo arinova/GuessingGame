@@ -99,6 +99,8 @@ function makeAGuess(game){
 
 
 $(document).ready(function(){
+  var game= new Game();
+  
   $('#submit').click(function(e) {
      makeAGuess(game);
   })
